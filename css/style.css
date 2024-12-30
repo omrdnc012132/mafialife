@@ -1,0 +1,98 @@
+body{
+    background-color: #0e0e0e;
+}
+
+.form-control{
+    background:#1a1a1a;
+    color:gray;
+    border:1px solid #000;
+    box-shadow: #000 1px 1px 5px;
+}
+
+.form-control:hover{
+    background:#1a1a1a;
+    color:gray;
+    border:1px solid #000;
+    box-shadow: #000 1px 1px 5px;
+}
+
+.form-control:focus{
+    background:#1a1a1a;
+    color:gray;
+    border:1px solid #000;
+    box-shadow: #000 1px 1px 5px;
+}
+
+.gray, .gray:hover, .gray:focus{
+    color: #474747;
+}
+
+.lightgray, .lightgray:hover, .lightgray:focus{
+    color: #616161;
+}
+
+.lightlightgray, .lightlightgray:hover, .lightlightgray:focus{
+    color: #979797;
+}
+
+.btn-danger{
+    background: rgb(52,0,0);
+    background: linear-gradient(0deg, #340000 0%, #d20808 100%);
+    border-color:transparent;
+    border-bottom:1px solid #340000;
+}
+
+.btn-danger:hover{
+    background: rgb(52,0,0);
+    background: linear-gradient(0deg, #340000 0%, #e70e0e 100%);
+    border-color: transparent;
+    border-bottom:1px solid #340000;
+}
+
+.btn-danger:focus{
+    background: rgb(52,0,0);
+    background: linear-gradient(0deg, #340000 0%, #bb0707 100%);
+    border-color: transparent;
+    border-bottom:1px solid #340000;
+    box-shadow: 0 0 0 0.2rem transparent;
+}
+
+.btn-danger2{
+    background: #161616;
+    background: linear-gradient(0deg, #161616 0%, #4d4d4d 100%);
+    border-color:transparent;
+    border-bottom:1px solid #161616;
+}
+
+.btn-danger2:hover{
+    background: #161616;
+    background: linear-gradient(0deg, #161616 0%, #6b6b6b 100%);
+    border-color:transparent;
+    border-bottom:1px solid #161616;
+}
+
+.btn-danger2:focus{
+    background: #161616;
+    background: linear-gradient(0deg, #161616 0%, #313131 100%);
+    border-color:transparent;
+    border-bottom:1px solid #161616;
+}
+.btn-danger:not(:disabled):not(.disabled):active, .btn-danger:not(:disabled):not(.disabled).active, .show > .btn-danger.dropdown-toggle{
+    background-color: transparent;
+    border-color: transparent;
+    border-bottom:1px solid #161616;
+}
+
+.btn-danger:not(:disabled):not(.disabled):active:focus, .btn-danger:not(:disabled):not(.disabled).active:focus, .show > .btn-danger.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem transparent;
+}
+
+.serit{
+    background-color: #000000;
+    color: lightgray;
+    padding: 5px;
+}
+
+.text-red, .text-red:hover, .text-red:focus{
+    color: red;
+}
